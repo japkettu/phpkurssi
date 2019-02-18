@@ -1,0 +1,24 @@
+
+
+Projektin aihe on kimppakyytipalvelu, johon käyttäjät voivat rekisteröityä. Kirjautumisen jälkeen käyttäjä voi mm:
+*ilmoittautua kuskiksi
+*selata muiden ilmoituksia
+*ilmoittautua muiden käyttäjien kyytiin
+*hallinnoida omia ilmoittautumisiaan 
+
+Ulkoasu ja toiminnot on yritetty pitää yksinkertaisina ja käyttäjä ystävällisinä. 
+
+
+Kaikki tiedot tallentuvat SQL-tietokantaan. Käyttäjän syöte on pyritty ottamaan huomioon XSS:n, SQL-injektion ja ym. koiruuksien varalta, mutta todennäköisesti tietoturva-aukkoja löytyy. 
+Serveri puolen kanssa juttelu toimii pääasiassa AJAX-tekniikalla. Kaikki omat javascriptit löytyy toiminnot.js tiedostosta, jossa sekaisin AJAX kutsut, ulkoasun päivitykset ym. 
+
+
+
+Projektissa on käytetty seuraavien kolmannen osapuolien koodia:
+
+Bootstrap
+jQuery
+Google Maps API
+Google Geocode API
+DataTables
+
